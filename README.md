@@ -1,82 +1,109 @@
 # EQUINOX - Equipos Inoxidables S.L.
 
-Este repositorio contiene el código fuente del sitio web de EQUINOX, una empresa especializada en calderería industrial con más de 30 años de experiencia.
+This repository contains the source code for the official website of **EQUINOX - Equipos Inoxidables S.L.**, a company specialized in industrial boiler-making with over 30 years of experience providing high-quality products and services.
 
-![equinox_logo](https://github.com/user-attachments/assets/2ac6bb82-3bbd-401d-b19e-5b52d45de622)
+![equinox_logo](https://github.com/user-attachments/assets/e5093e36-e930-468f-8855-21b854138717)
 
+---
 
-## Estructura del Sitio
+## Project Structure
 
-- **index.html**: Página principal
-- **empresa.html**: Información sobre la empresa
-- **productos-servicios.html**: Catálogo de productos y servicios
-- **calidad.html**: Información sobre estándares de calidad
-- **contacto.html**: Formulario de contacto e información
-- **css/**: Directorio con archivos de estilo
-- **js/**: Directorio con archivos JavaScript
-- **assets/img/**: Directorio con imágenes y recursos gráficos
+- **index.html**: Main page of the website.
+- **empresa.html**: Company information about EQUINOX.
+- **productos-servicios.html**: Detailed catalog of products and services.
+- **calidad.html**: Information on quality standards and certifications.
+- **contacto.html**: Contact form and information.
 
-## Tecnologías Utilizadas
+**Directories:**
+- `css/`: CSS files of the project.
+- `js/`: JavaScript scripts.
+- `assets/img/`: Images and graphic resources.
+
+---
+
+## Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript
-- Bootstrap 5.3
-- Font Awesome 6.4
-- Google Fonts (Roboto, Open Sans)
-
-## Características
-
-- Diseño totalmente responsivo (móviles, tablets, desktops)
-- Animaciones y transiciones para mejorar la experiencia de usuario
-- Optimizado para rendimiento y velocidad de carga
-- Estructura semántica para SEO
-- Preparado para implementar Google Analytics
-
-## Desarrollo Local
-
-Para ejecutar el sitio localmente, puede utilizar cualquiera de los siguientes métodos:
-
-### Método 1: Navegador directo
-Simplemente abra el archivo `index.html` en su navegador.
-
-### Método 2: Servidor local (recomendado)
-1. Instale Python si no lo tiene instalado
-2. Navegue hasta el directorio del proyecto en su terminal
-3. Ejecute: `python -m http.server 8080`
-4. Abra su navegador y visite: `http://localhost:8080`
-
-## Despliegue en Producción
-
-Para implementar este sitio en un entorno de producción, siga las instrucciones en el archivo `INSTRUCCIONES_MIGRACION.md`.
-
-### Preparación para despliegue
-
-1. Optimice las imágenes para producción
-2. Verifique los enlaces y la navegación
-3. Pruebe el sitio en diferentes navegadores y dispositivos
-4. Revise el contenido y corrija errores tipográficos
-
-## Mantenimiento
-
-Para mantener el sitio actualizado:
-
-1. Actualice regularmente la información de productos y servicios
-2. Revise y actualice las imágenes según sea necesario
-3. Mantenga las dependencias (Bootstrap, Font Awesome) actualizadas
-4. Implemente mejoras de SEO basadas en análisis de rendimiento
-
-## Licencia
-
-Este proyecto es propiedad intelectual de EQUINOX - Equipos Inoxidables S.L. y no está licenciado para uso público.
-
-## Contacto
-
-Para cualquier consulta relacionada con este proyecto, contacte a:
-
-- Email: info@equinox-inoxidables.es
-- Teléfono: +34 93 XXX XX XX
+- [Bootstrap 5.3](https://getbootstrap.com/)
+- [Font Awesome 6.4](https://fontawesome.com/)
+- [Google Fonts](https://fonts.google.com/) (Roboto, Open Sans)
 
 ---
 
- 2025 EQUINOX - Equipos Inoxidables S.L. Todos los derechos reservados.
+## Features
+
+- **Responsive Design:** Optimized for mobile, tablet, and desktop devices.
+- **Interactivity:** Smooth animations and transitions for an enhanced user experience.
+- **Performance Optimization:** High loading speed and performance.
+- **SEO-friendly:** Semantic structure optimized for web positioning.
+- **Google Analytics:** Prepared for integration with web analytics.
+
+---
+
+## Installation and Local Execution
+
+### Method 1: Direct Browser
+
+Open the `index.html` file directly in any modern web browser.
+
+### Method 2: Local Server *(Recommended)*
+
+1. **Install Python** (if not already installed): [Download Python](https://www.python.org/downloads/).
+2. **Open a terminal** and navigate to the root directory of the project.
+3. Run the local server:
+
+```bash
+python -m http.server 8080
+```
+
+4. Open your browser and navigate to:
+
+```
+http://localhost:8080
+```
+
+---
+
+## Production Deployment
+
+To deploy the website to production, please refer to the [`INSTRUCCIONES_MIGRACION.md`](INSTRUCCIONES_MIGRACION.md) file.
+
+### Deployment Checklist:
+
+- Optimize images.
+- Verify links and navigation.
+- Test on multiple browsers and devices.
+- Review and correct content.
+
+---
+
+## Website Maintenance
+
+To ensure the website remains updated and effective:
+
+- Regularly update product and service information.
+- Regularly review images and visual content.
+- Keep external dependencies (Bootstrap, Font Awesome) up-to-date.
+- Apply SEO improvements based on performance analytics.
+
+---
+
+## License
+
+This project is the exclusive intellectual property of **EQUINOX - Equipos Inoxidables S.L.** and is not licensed for public use.
+
+---
+
+## Contact
+
+For inquiries related to this project, please contact:
+
+- **Email:** [info@equinox-inoxidables.es](mailto:info@equinox-inoxidables.es)
+- **Phone:** +34 93 XXX XX XX
+
+---
+
+© 2025 **EQUINOX - Equipos Inoxidables S.L.** All rights reserved.
+

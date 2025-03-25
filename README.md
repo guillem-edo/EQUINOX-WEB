@@ -2,7 +2,7 @@
 
 Este repositorio contiene el código fuente del sitio web de EQUINOX, una empresa especializada en calderería industrial con más de 30 años de experiencia.
 
-![EQUINOX Logo](assets/img/logo-equinox-white.png)
+![EQUINOX Logo](\img\empresa\equinox_logo.png)
 
 ## Estructura del Sitio
 

@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Empresa | EQUINOX - Equipos Inoxidables S.L.</title>
-    <meta name="description" content="EQUINOX - Empresa de calderería industrial con más de 30 años de experiencia. Conoce nuestra historia, instalaciones y capacidades.">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Empresa | EQUINOX - Equipos Inoxidables S.L.</title>
+        <meta name="description" content="EQUINOX - Empresa de calderería industrial con más de 30 años de experiencia. Conoce nuestra historia, instalaciones y capacidades.">
     
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,352 +22,358 @@
     
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+    </head>
+    <body>
+    <!-- Enlace para saltar al contenido principal (accesibilidad) -->
+    <a href="#maincontent" class="visually-hidden-focusable">Saltar a contenido principal</a>
+
     <!-- Aviso de cookies -->
     <div class="cookie-alert alert alert-dark alert-dismissible fade show" role="alert">
         Esta web utiliza cookies para obtener datos estadísticos de la navegación de sus usuarios. Si continúas navegando consideramos que aceptas su uso.
         <a href="#" class="alert-link">Más Información</a>
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
     </div>
 
     <!-- Barra de navegación -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" aria-label="Barra de navegación principal">
         <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="img/logo-equinox.png" alt="EQUINOX Logo" class="img-fluid">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarMain">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="empresa.html">Empresa</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="productos-servicios.html">Productos y Servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="materiales.html">Materiales</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="acabados.html">Acabados</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="calidad.html">Calidad</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="sectores.html">Sectores</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="fas fa-globe"></i> ES
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
-                            <li><a class="dropdown-item active" href="#" onclick="changeLanguage('es')">Castellano</a></li>
-                            <li><a class="dropdown-item" href="#" onclick="changeLanguage('ca')">Català</a></li>
-                        </ul>
-                    </li>
+        <a class="navbar-brand" href="index.html">
+            <img src="img/empresa/equinox_logo.png" alt="Logotipo EQUINOX" class="img-fluid" loading="lazy">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Alternar navegación">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMain">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="empresa.html">Empresa</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="productos-servicios.html">Productos y Servicios</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="materiales.html">Materiales</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="acabados.html">Acabados</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="calidad.html">Calidad</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="sectores.html">Sectores</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-globe"></i> ES
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+                <li><a class="dropdown-item active" href="#" onclick="changeLanguage('es')">Castellano</a></li>
+                <li><a class="dropdown-item" href="#" onclick="changeLanguage('ca')">Català</a></li>
                 </ul>
-            </div>
+            </li>
+            </ul>
+        </div>
         </div>
     </nav>
 
-    <!-- Page Header -->
-    <header class="bg-primary text-white py-5 mt-5">
+    <!-- Contenido principal -->
+    <main id="maincontent">
+        <!-- Page Header -->
+        <header class="bg-primary text-white py-5 mt-5">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-8">
-                    <h1 class="display-4 fw-bold">Nuestra Empresa</h1>
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html" class="text-white">Inicio</a></li>
-                            <li class="breadcrumb-item active text-white" aria-current="page">Empresa</li>
-                        </ol>
-                    </nav>
-                </div>
-                <div class="col-lg-4 d-none d-lg-block">
-                    <img src="img/empresa-header.png" alt="EQUINOX Empresa" class="img-fluid">
-                </div>
+            <div class="col-lg-8">
+                <h1 class="display-4 fw-bold">Nuestra Empresa</h1>
+                <nav aria-label="Ruta de navegación">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html" class="text-white">Inicio</a></li>
+                    <li class="breadcrumb-item active text-white" aria-current="page">Empresa</li>
+                </ol>
+                </nav>
+            </div>
+            <div class="col-lg-4 d-none d-lg-block">
+                <img src="img/empresa-header.png" alt="EQUINOX Empresa" class="img-fluid" loading="lazy">
+            </div>
             </div>
         </div>
-    </header>
+        </header>
 
-    <!-- About Section -->
-    <section class="section">
+        <!-- About Section -->
+        <section class="section">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6 mb-4 mb-lg-0 fade-in">
-                    <h2 class="section-title text-start">Sobre EQUINOX</h2>
-                    <p class="lead">Con más de 30 años de experiencia, EQUINOX S.L. se configura dentro del sector de la calderería como uno de los entes de producción tecnológicamente más avanzados y mejor equipados del mercado.</p>
-                    <p>EQUINOX ofrece a sus clientes, bajo las normas y códigos de calidad, un servicio integral de plantas para su empresa.</p>
-                    <ul class="list-group list-group-flush mb-4">
-                        <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i> Diseño y proyecto, aplicando las normas ASME VIII Div.1, TEMA, AD-Merkblätter, EN-13445, etc.</li>
-                        <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i> Fabricación de los equipos.</li>
-                        <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i> Instalación de los mismos, así como su conexionado.</li>
-                        <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i> Mantenimiento de su planta.</li>
-                        <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i> También nos encargamos de instalaciones ajenas a nuestros aparatos, así como su conexionado.</li>
-                        <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i> Damos servicio de legalizaciones, pruebas periódicas, reparaciones y transportes especiales.</li>
+            <div class="col-lg-6 mb-4 mb-lg-0 fade-in">
+                <h2 class="section-title text-start">Sobre EQUINOX</h2>
+                <p class="lead">Con más de 30 años de experiencia, EQUINOX S.L. se configura dentro del sector de la calderería como uno de los entes de producción tecnológicamente más avanzados y mejor equipados del mercado.</p>
+                <p>EQUINOX ofrece a sus clientes, bajo las normas y códigos de calidad, un servicio integral de plantas para su empresa.</p>
+                <ul class="list-group list-group-flush mb-4">
+                <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i> Diseño y proyecto, aplicando las normas ASME VIII Div.1, TEMA, AD-Merkblätter, EN-13445, etc.</li>
+                <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i> Fabricación de los equipos.</li>
+                <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i> Instalación de los mismos, así como su conexionado.</li>
+                <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i> Mantenimiento de su planta.</li>
+                <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i> También nos encargamos de instalaciones ajenas a nuestros aparatos, así como su conexionado.</li>
+                <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i> Damos servicio de legalizaciones, pruebas periódicas, reparaciones y transportes especiales.</li>
+                </ul>
+            </div>
+            <div class="col-lg-6 fade-in">
+                <img src="img/about-company.jpg" alt="Sobre EQUINOX" class="img-fluid rounded-lg shadow-lg" loading="lazy">
+            </div>
+            </div>
+        </div>
+        </section>
+
+        <!-- Facilities Section -->
+        <section class="section bg-light-gray">
+        <div class="container">
+            <div class="row justify-content-center">
+            <div class="col-lg-8 text-center fade-in">
+                <h2 class="section-title">Nuestras Instalaciones</h2>
+                <p class="lead mb-5">Contamos con instalaciones modernas y completamente equipadas para ofrecer el mejor servicio.</p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-lg-4 mb-4 fade-in">
+                <div class="card h-100 service-card">
+                <img src="img/instalaciones-1.jpg" class="card-img-top" alt="Instalaciones EQUINOX" loading="lazy">
+                <div class="card-body">
+                    <h3 class="card-title h5">Área de Producción</h3>
+                    <p class="card-text">Más de 700 m² dedicados a la producción de equipos de calderería industrial.</p>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4 fade-in">
+                <div class="card h-100 service-card">
+                <img src="img/instalaciones-2.jpg" class="card-img-top" alt="Instalaciones EQUINOX" loading="lazy">
+                <div class="card-body">
+                    <h3 class="card-title h5">Área de Mecanización</h3>
+                    <p class="card-text">100 m² destinados a la mecanización de piezas para calderería.</p>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4 fade-in">
+                <div class="card h-100 service-card">
+                <img src="img/instalaciones-3.jpg" class="card-img-top" alt="Instalaciones EQUINOX" loading="lazy">
+                <div class="card-body">
+                    <h3 class="card-title h5">Patio Exterior</h3>
+                    <p class="card-text">200 m² de patio exterior para almacenamiento y pruebas de equipos.</p>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </section>
+
+        <!-- Equipment Section -->
+        <section class="section">
+        <div class="container">
+            <div class="row justify-content-center">
+            <div class="col-lg-8 text-center fade-in">
+                <h2 class="section-title">Equipamiento</h2>
+                <p class="lead mb-5">Maquinaria avanzada para garantizar la máxima calidad en nuestros productos.</p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-lg-4 mb-4 fade-in">
+                <div class="card h-100">
+                <div class="card-header bg-primary text-white">
+                    <h3 class="h5 mb-0">Maquinaria</h3>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                    <li class="list-group-item">2 puentes grúa para 6 Tn.</li>
+                    <li class="list-group-item">2 cilindros para calderería.</li>
+                    <li class="list-group-item">1 cizalla para chapa.</li>
+                    <li class="list-group-item">1 plegadora.</li>
+                    <li class="list-group-item">1 punzonadora.</li>
+                    <li class="list-group-item">1 taladro de brazo radial.</li>
+                    <li class="list-group-item">1 fresadora.</li>
+                    <li class="list-group-item">1 torno convencional mediano.</li>
+                    <li class="list-group-item">Sierras de cinta, alternativas, fricción y abrasivas.</li>
+                    <li class="list-group-item">3 parejas de viradores independientes.</li>
+                    <li class="list-group-item">4 viradores manuales.</li>
+                    <li class="list-group-item">1 equipo automático de corte.</li>
+                    <li class="list-group-item">3 equipos de corte por plasma.</li>
                     </ul>
                 </div>
-                <div class="col-lg-6 fade-in">
-                    <img src="img/about-company.jpg" alt="Sobre EQUINOX" class="img-fluid rounded-lg shadow-lg">
                 </div>
             </div>
+            <div class="col-lg-4 mb-4 fade-in">
+                <div class="card h-100">
+                <div class="card-header bg-primary text-white">
+                    <h3 class="h5 mb-0">Soldadura</h3>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                    <li class="list-group-item">5 máquinas de soldar por electrodo (SMAW)</li>
+                    <li class="list-group-item">6 máquinas de soldadura TIG (H.F. y P.A.)</li>
+                    <li class="list-group-item">6 máquinas de soldadura MIG-MAG.</li>
+                    <li class="list-group-item">Herramientas para la inertización de atmósfera.</li>
+                    <li class="list-group-item">2 parejas de viradores independientes.</li>
+                    <li class="list-group-item">1 posicionador.</li>
+                    <li class="list-group-item">1 tren virador.</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4 fade-in">
+                <div class="card h-100">
+                <div class="card-header bg-primary text-white">
+                    <h3 class="h5 mb-0">Capacidades</h3>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Fabricación de equipos de hasta 6 toneladas.</li>
+                    <li class="list-group-item">Soldadura de aceros inoxidables y aleaciones especiales.</li>
+                    <li class="list-group-item">Corte de precisión por plasma.</li>
+                    <li class="list-group-item">Mecanización de piezas.</li>
+                    <li class="list-group-item">Pruebas hidráulicas y neumáticas.</li>
+                    <li class="list-group-item">Acabados superficiales diversos.</li>
+                    <li class="list-group-item">Diseño y cálculo de equipos.</li>
+                    <li class="list-group-item">Certificación según normativas internacionales.</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            </div>
         </div>
-    </section>
+        </section>
 
-    <!-- Facilities Section -->
-    <section class="section bg-light-gray">
+        <!-- Team Section -->
+        <section class="section bg-light-gray">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-8 text-center fade-in">
-                    <h2 class="section-title">Nuestras Instalaciones</h2>
-                    <p class="lead mb-5">Contamos con instalaciones modernas y completamente equipadas para ofrecer el mejor servicio.</p>
-                </div>
+            <div class="col-lg-8 text-center fade-in">
+                <h2 class="section-title">Nuestro Equipo</h2>
+                <p class="lead mb-5">Profesionales altamente cualificados con amplia experiencia en el sector.</p>
+            </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 mb-4 fade-in">
-                    <div class="card h-100 service-card">
-                        <img src="img/instalaciones-1.jpg" class="card-img-top" alt="Instalaciones EQUINOX">
-                        <div class="card-body">
-                            <h3 class="card-title h5">Área de Producción</h3>
-                            <p class="card-text">Disponemos de más de 700 m² dedicados a la producción de equipos de calderería industrial.</p>
-                        </div>
-                    </div>
+            <div class="col-lg-3 col-md-6 mb-4 fade-in">
+                <div class="card h-100 service-card">
+                <img src="img/team-1.jpg" class="card-img-top" alt="Antonio García - Director General" loading="lazy">
+                <div class="card-body text-center">
+                    <h3 class="card-title h5">Antonio García</h3>
+                    <p class="text-muted">Director General</p>
+                    <p class="card-text">Más de 30 años de experiencia en el sector de la calderería industrial.</p>
                 </div>
-                <div class="col-lg-4 mb-4 fade-in">
-                    <div class="card h-100 service-card">
-                        <img src="img/instalaciones-2.jpg" class="card-img-top" alt="Instalaciones EQUINOX">
-                        <div class="card-body">
-                            <h3 class="card-title h5">Área de Mecanización</h3>
-                            <p class="card-text">100 m² destinados a la mecanización de las piezas de proceso para calderería.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-4 fade-in">
-                    <div class="card h-100 service-card">
-                        <img src="img/instalaciones-3.jpg" class="card-img-top" alt="Instalaciones EQUINOX">
-                        <div class="card-body">
-                            <h3 class="card-title h5">Patio Exterior</h3>
-                            <p class="card-text">200 m² de patio exterior para almacenamiento y pruebas de equipos.</p>
-                        </div>
-                    </div>
                 </div>
             </div>
+            <div class="col-lg-3 col-md-6 mb-4 fade-in">
+                <div class="card h-100 service-card">
+                <img src="img/team-2.jpg" class="card-img-top" alt="Laura Martínez - Directora Técnica" loading="lazy">
+                <div class="card-body text-center">
+                    <h3 class="card-title h5">Laura Martínez</h3>
+                    <p class="text-muted">Directora Técnica</p>
+                    <p class="card-text">Ingeniera industrial especializada en diseño de equipos a presión.</p>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 fade-in">
+                <div class="card h-100 service-card">
+                <img src="img/team-3.jpg" class="card-img-top" alt="Carlos Rodríguez - Jefe de Producción" loading="lazy">
+                <div class="card-body text-center">
+                    <h3 class="card-title h5">Carlos Rodríguez</h3>
+                    <p class="text-muted">Jefe de Producción</p>
+                    <p class="card-text">Experto en procesos de fabricación y soldadura de aceros especiales.</p>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 fade-in">
+                <div class="card h-100 service-card">
+                <img src="img/team-4.jpg" class="card-img-top" alt="Elena Sánchez - Responsable de Calidad" loading="lazy">
+                <div class="card-body text-center">
+                    <h3 class="card-title h5">Elena Sánchez</h3>
+                    <p class="text-muted">Responsable de Calidad</p>
+                    <p class="card-text">Especialista en normativas y certificaciones para equipos industriales.</p>
+                </div>
+                </div>
+            </div>
+            </div>
         </div>
-    </section>
+        </section>
 
-    <!-- Equipment Section -->
-    <section class="section">
+        <!-- CTA Section -->
+        <section class="section bg-primary text-white">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-8 text-center fade-in">
-                    <h2 class="section-title">Equipamiento</h2>
-                    <p class="lead mb-5">Contamos con maquinaria avanzada para garantizar la máxima calidad en nuestros productos.</p>
-                </div>
+            <div class="col-lg-10 text-center fade-in">
+                <h2 class="mb-4">¿Necesita un proyecto personalizado?</h2>
+                <p class="lead mb-4">Contáctenos hoy mismo para obtener una consulta gratuita y un presupuesto personalizado para su proyecto.</p>
+                <a href="contacto.html" class="btn btn-light btn-lg">Solicitar presupuesto</a>
             </div>
-            <div class="row">
-                <div class="col-lg-4 mb-4 fade-in">
-                    <div class="card h-100">
-                        <div class="card-header bg-primary text-white">
-                            <h3 class="h5 mb-0">Maquinaria</h3>
-                        </div>
-                        <div class="card-body">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">2 puentes grúa para 6 Tn.</li>
-                                <li class="list-group-item">2 cilindros para calderería.</li>
-                                <li class="list-group-item">1 cizalla para chapa.</li>
-                                <li class="list-group-item">1 plegadora.</li>
-                                <li class="list-group-item">1 punzonadora.</li>
-                                <li class="list-group-item">1 taladro de brazo radial.</li>
-                                <li class="list-group-item">1 fresadora.</li>
-                                <li class="list-group-item">1 torno convencional mediano.</li>
-                                <li class="list-group-item">Sierras de cinta, alternativas, fricción y abrasivas.</li>
-                                <li class="list-group-item">3 parejas de viradores independientes.</li>
-                                <li class="list-group-item">4 viradores manuales.</li>
-                                <li class="list-group-item">1 equipo automático de corte.</li>
-                                <li class="list-group-item">3 equipos de corte por plasma.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-4 fade-in">
-                    <div class="card h-100">
-                        <div class="card-header bg-primary text-white">
-                            <h3 class="h5 mb-0">Soldadura</h3>
-                        </div>
-                        <div class="card-body">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">5 máquinas soldar por electrodo. (SMAW)</li>
-                                <li class="list-group-item">6 máquinas de soldadura TIG (H.F. y P.A.)</li>
-                                <li class="list-group-item">6 máquinas de soldadura MIG-MAG.</li>
-                                <li class="list-group-item">Diversos útiles para la inertización de atmósfera.</li>
-                                <li class="list-group-item">2 parejas de viradores independientes.</li>
-                                <li class="list-group-item">1 posicionador.</li>
-                                <li class="list-group-item">1 tren virador.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-4 fade-in">
-                    <div class="card h-100">
-                        <div class="card-header bg-primary text-white">
-                            <h3 class="h5 mb-0">Capacidades</h3>
-                        </div>
-                        <div class="card-body">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Fabricación de equipos de hasta 6 toneladas.</li>
-                                <li class="list-group-item">Soldadura de aceros inoxidables y aleaciones especiales.</li>
-                                <li class="list-group-item">Corte de precisión por plasma.</li>
-                                <li class="list-group-item">Mecanización de piezas.</li>
-                                <li class="list-group-item">Pruebas hidráulicas y neumáticas.</li>
-                                <li class="list-group-item">Acabados superficiales diversos.</li>
-                                <li class="list-group-item">Diseño y cálculo de equipos.</li>
-                                <li class="list-group-item">Certificación según normativas internacionales.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
-    </section>
-
-    <!-- Team Section -->
-    <section class="section bg-light-gray">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8 text-center fade-in">
-                    <h2 class="section-title">Nuestro Equipo</h2>
-                    <p class="lead mb-5">Contamos con profesionales altamente cualificados con amplia experiencia en el sector.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6 mb-4 fade-in">
-                    <div class="card h-100 service-card">
-                        <img src="img/team-1.jpg" class="card-img-top" alt="Miembro del equipo">
-                        <div class="card-body text-center">
-                            <h3 class="card-title h5">Antonio García</h3>
-                            <p class="text-muted">Director General</p>
-                            <p class="card-text">Más de 30 años de experiencia en el sector de la calderería industrial.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4 fade-in">
-                    <div class="card h-100 service-card">
-                        <img src="img/team-2.jpg" class="card-img-top" alt="Miembro del equipo">
-                        <div class="card-body text-center">
-                            <h3 class="card-title h5">Laura Martínez</h3>
-                            <p class="text-muted">Directora Técnica</p>
-                            <p class="card-text">Ingeniera industrial especializada en diseño de equipos a presión.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4 fade-in">
-                    <div class="card h-100 service-card">
-                        <img src="img/team-3.jpg" class="card-img-top" alt="Miembro del equipo">
-                        <div class="card-body text-center">
-                            <h3 class="card-title h5">Carlos Rodríguez</h3>
-                            <p class="text-muted">Jefe de Producción</p>
-                            <p class="card-text">Experto en procesos de fabricación y soldadura de aceros especiales.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4 fade-in">
-                    <div class="card h-100 service-card">
-                        <img src="img/team-4.jpg" class="card-img-top" alt="Miembro del equipo">
-                        <div class="card-body text-center">
-                            <h3 class="card-title h5">Elena Sánchez</h3>
-                            <p class="text-muted">Responsable de Calidad</p>
-                            <p class="card-text">Especialista en normativas y certificaciones para equipos industriales.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="section bg-primary text-white">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-10 text-center fade-in">
-                    <h2 class="mb-4">¿Necesita un proyecto personalizado?</h2>
-                    <p class="lead mb-4">Contáctenos hoy mismo para obtener una consulta gratuita y un presupuesto personalizado para su proyecto.</p>
-                    <a href="contacto.html" class="btn btn-light btn-lg">Solicitar presupuesto</a>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-4 mb-lg-0">
+            <div class="footer-logo">
+                <img src="img/logo-equinox-white.png" alt="EQUINOX Logo" class="img-fluid" loading="lazy">
+            </div>
+            <p>EQUINOX - Equipos Inoxidables S.L. es una empresa especializada en calderería industrial con más de 30 años de experiencia en el sector.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f" aria-label="Facebook"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in" aria-label="LinkedIn"></i></a>
+                <a href="#"><i class="fab fa-twitter" aria-label="Twitter"></i></a>
+            </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 mb-4 mb-md-0">
+            <div class="footer-links">
+                <h5>Empresa</h5>
+                <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="empresa.html">Empresa</a></li>
+                <li><a href="calidad.html">Calidad</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 mb-4 mb-md-0">
+            <div class="footer-links">
+                <h5>Productos</h5>
+                <ul>
+                <li><a href="productos-servicios.html#reactores">Reactores</a></li>
+                <li><a href="productos-servicios.html#agitadores">Agitadores</a></li>
+                <li><a href="productos-servicios.html#intercambiadores">Intercambiadores</a></li>
+                <li><a href="productos-servicios.html#depositos">Depósitos</a></li>
+                </ul>
+            </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+            <div class="footer-links">
+                <h5>Contacto</h5>
+                <p><i class="fas fa-map-marker-alt me-2"></i> Pol. Ind. Jordi Camp, c/ Jordi Camp, 51 - 08403 - Granollers, Barcelona.</p>
+                <p><i class="fas fa-phone me-2"></i> +34 93 849 98 38</p>
+                <p><i class="fas fa-fax me-2"></i> +34 93 849 58 09</p>
+                <p><i class="fas fa-envelope me-2"></i> <a href="mailto:equinoxsl@equinoxsl.com">equinoxsl@equinoxsl.com</a></p>
+            </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
             <div class="row">
-                <div class="col-lg-4 mb-4 mb-lg-0">
-                    <div class="footer-logo">
-                        <img src="img/logo-equinox-white.png" alt="EQUINOX Logo" class="img-fluid">
-                    </div>
-                    <p>EQUINOX - Equipos Inoxidables S.L. es una empresa especializada en calderería industrial con más de 30 años de experiencia en el sector.</p>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-6 mb-4 mb-md-0">
-                    <div class="footer-links">
-                        <h5>Empresa</h5>
-                        <ul>
-                            <li><a href="index.html">Inicio</a></li>
-                            <li><a href="empresa.html">Empresa</a></li>
-                            <li><a href="calidad.html">Calidad</a></li>
-                            <li><a href="contacto.html">Contacto</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-6 mb-4 mb-md-0">
-                    <div class="footer-links">
-                        <h5>Productos</h5>
-                        <ul>
-                            <li><a href="productos-servicios.html#reactores">Reactores</a></li>
-                            <li><a href="productos-servicios.html#agitadores">Agitadores</a></li>
-                            <li><a href="productos-servicios.html#intercambiadores">Intercambiadores</a></li>
-                            <li><a href="productos-servicios.html#depositos">Depósitos</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4">
-                    <div class="footer-links">
-                        <h5>Contacto</h5>
-                        <p><i class="fas fa-map-marker-alt me-2"></i> Pol. Ind. Jordi Camp, c/ Jordi Camp, 51 - 08403 - Granollers, Barcelona.</p>
-                        <p><i class="fas fa-phone me-2"></i> +34 93 849 98 38</p>
-                        <p><i class="fas fa-fax me-2"></i> +34 93 849 58 09</p>
-                        <p><i class="fas fa-envelope me-2"></i> <a href="mailto:equinoxsl@equinoxsl.com">equinoxsl@equinoxsl.com</a></p>
-                    </div>
-                </div>
+            <div class="col-md-6 mb-3 mb-md-0">
+                <p class="mb-0">&copy; 2025 EQUINOX - Equipos Inoxidables S.L. Todos los derechos reservados.</p>
             </div>
-            <div class="footer-bottom">
-                <div class="row">
-                    <div class="col-md-6 mb-3 mb-md-0">
-                        <p class="mb-0">&copy; 2025 EQUINOX - Equipos Inoxidables S.L. Todos los derechos reservados.</p>
-                    </div>
-                    <div class="col-md-6 text-md-end">
-                        <ul class="list-inline mb-0">
-                            <li class="list-inline-item"><a href="privacidad.html">Política de Privacidad</a></li>
-                            <li class="list-inline-item"><a href="cookies.html">Cookies</a></li>
-                            <li class="list-inline-item"><a href="aviso-legal.html">Aviso Legal</a></li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="col-md-6 text-md-end">
+                <ul class="list-inline mb-0">
+                <li class="list-inline-item"><a href="privacidad.html">Política de Privacidad</a></li>
+                <li class="list-inline-item"><a href="cookies.html">Cookies</a></li>
+                <li class="list-inline-item"><a href="aviso-legal.html">Aviso Legal</a></li>
+                </ul>
             </div>
+            </div>
+        </div>
         </div>
     </footer>
 
@@ -376,5 +382,5 @@
     
     <!-- Custom JS -->
     <script src="js/main.js"></script>
-</body>
-</html>
+    </body>
+    </html>

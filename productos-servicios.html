@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos y Servicios | EQUINOX - Equipos Inoxidables S.L.</title>
+    <meta name="description" content="Descubra nuestra gama completa de productos y servicios de calderería industrial: reactores, agitadores, intercambiadores, depósitos y más.">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Aviso de cookies -->
+    <div class="cookie-alert alert alert-dark alert-dismissible fade show" role="alert">
+        Esta web utiliza cookies para obtener datos estadísticos de la navegación de sus usuarios. Si continúas navegando consideramos que aceptas su uso.
+        <a href="#" class="alert-link">Más Información</a>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo-equinox.png" alt="EQUINOX Logo" class="img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMain">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="empresa.html">Empresa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="productos-servicios.html">Productos y Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="materiales.html">Materiales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="acabados.html">Acabados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="calidad.html">Calidad</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sectores.html">Sectores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-globe"></i> ES
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+                            <li><a class="dropdown-item active" href="#" onclick="changeLanguage('es')">Castellano</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="changeLanguage('ca')">Català</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="bg-primary text-white py-5 mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h1 class="display-4 fw-bold">Productos y Servicios</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html" class="text-white">Inicio</a></li>
+                            <li class="breadcrumb-item active text-white" aria-current="page">Productos y Servicios</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="col-lg-4 d-none d-lg-block">
+                    <img src="img/productos-header.png" alt="EQUINOX Productos" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Reactores Section -->
+    <section id="reactores" class="section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center fade-in">
+                    <h2 class="section-title">Reactores</h2>
+                    <p class="lead mb-5">Fabricamos reactores de alta calidad adaptados a las necesidades específicas de cada proceso industrial.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4 fade-in">
+                    <div class="card h-100 service-card">
+                        <img src="img/reactor-media-cana.jpg" class="card-img-top" alt="Reactor con Media Caña">
+                        <div class="card-body">
+                            <h3 class="card-title h5">Reactores con Media Caña</h3>
+                            <p class="card-text">Diseñados para un control preciso de la temperatura mediante circulación de fluidos térmicos.</p>
+                            <ul class="list-unstyled mt-3">
+                                <li><i class="fas fa-check text-primary me-2"></i> Excelente transferencia térmica</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> Diseño compacto</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> Fácil limpieza</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 fade-in">
+                    <div class="card h-100 service-card">
+                        <img src="img/reactor-camisa.jpg" class="card-img-top" alt="Reactor con Camisa">
+                        <div class="card-body">
+                            <h3 class="card-title h5">Reactores con Camisa</h3>
+                            <p class="card-text">Perfectos para procesos que requieren un control preciso de temperatura en toda la superficie.</p>
+                            <ul class="list-unstyled mt-3">
+                                <li><i class="fas fa-check text-primary me-2"></i> Distribución uniforme del calor</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> Alta eficiencia térmica</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> Múltiples configuraciones</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 fade-in">
+                    <div class="card h-100 service-card">
+                        <img src="img/reactor-serpentin.jpg" class="card-img-top" alt="Reactor con Serpentín">
+                        <div class="card-body">
+                            <h3 class="card-title h5">Reactores con Serpentín</h3>
+                            <p class="card-text">Solución ideal para procesos que requieren enfriamiento o calentamiento gradual.</p>
+                            <ul class="list-unstyled mt-3">
+                                <li><i class="fas fa-check text-primary me-2"></i> Control preciso de temperatura</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> Ideal para altas presiones</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> Mantenimiento sencillo</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-6 fade-in">
+                    <div class="card border-0 bg-light">
+                        <div class="card-body">
+                            <h4 class="mb-4">Características Técnicas</h4>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2"><i class="fas fa-temperature-high text-primary me-2"></i> Temperatura: hasta 300°C</li>
+                                        <li class="mb-2"><i class="fas fa-tachometer-alt text-primary me-2"></i> Presión: hasta 60 bar</li>
+                                        <li class="mb-2"><i class="fas fa-flask text-primary me-2"></i> Capacidad: 50L - 50.000L</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2"><i class="fas fa-cogs text-primary me-2"></i> Agitación personalizada</li>
+                                        <li class="mb-2"><i class="fas fa-shield-alt text-primary me-2"></i> Certificación PED</li>
+                                        <li class="mb-2"><i class="fas fa-tools text-primary me-2"></i> Mantenimiento preventivo</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 fade-in">
+                    <div class="card border-0 bg-light">
+                        <div class="card-body">
+                            <h4 class="mb-4">Aplicaciones Principales</h4>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2"><i class="fas fa-industry text-primary me-2"></i> Industria química</li>
+                                        <li class="mb-2"><i class="fas fa-pills text-primary me-2"></i> Industria farmacéutica</li>
+                                        <li class="mb-2"><i class="fas fa-wine-bottle text-primary me-2"></i> Industria cosmética</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2"><i class="fas fa-apple-alt text-primary me-2"></i> Industria alimentaria</li>
+                                        <li class="mb-2"><i class="fas fa-paint-roller text-primary me-2"></i> Pinturas y barnices</li>
+                                        <li class="mb-2"><i class="fas fa-oil-can text-primary me-2"></i> Industria petroquímica</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Agitadores Section -->
+    <section id="agitadores" class="section bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center fade-in">
+                    <h2 class="section-title">Agitadores</h2>
+                    <p class="lead mb-5">Diseñamos y fabricamos sistemas de agitación personalizados para garantizar la máxima eficiencia en sus procesos de mezcla.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4 fade-in">
+                    <div class="card h-100 service-card">
+                        <img src="img/agitador-helice.jpg" class="card-img-top" alt="Agitador de Hélice">
+                        <div class="card-body">
+                            <h3 class="card-title h5">Agitadores de Hélice</h3>
+                            <p class="card-text">Ideales para mezclas de baja viscosidad y homogeneización de líquidos.</p>
+                            <ul class="list-unstyled mt-3">
+                                <li><i class="fas fa-check text-primary me-2"></i> Alta eficiencia energética</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> Flujo axial</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> Velocidades elevadas</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 fade-in">
+                    <div class="card h-100 service-card">
+                        <img src="img/agitador-turbina.jpg" class="card-img-top" alt="Agitador de Turbina">
+                        <div class="card-body">
+                            <h3 class="card-title h5">Agitadores de Turbina</h3>
+                            <p class="card-text">Perfectos para dispersión y emulsión en procesos que requieren alta cizalla.</p>
+                            <ul class="list-unstyled mt-3">
+                                <li><i class="fas fa-check text-primary me-2"></i> Alta capacidad de mezcla</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> Flujo radial</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> Excelente dispersión</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 fade-in">
+                    <div class="card h-100 service-card">
+                        <img src="img/agitador-ancora.jpg" class="card-img-top" alt="Agitador de Áncora">
+                        <div class="card-body">
+                            <h3 class="card-title h5">Agitadores de Áncora</h3>
+                            <p class="card-text">Especialmente diseñados para productos de alta viscosidad y transferencia térmica.</p>
+                            <ul class="list-unstyled mt-3">
+                                <li><i class="fas fa-check text-primary me-2"></i> Excelente transferencia térmica</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> Bajas velocidades</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> Alta eficiencia en viscosos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-6 fade-in">
+                    <div class="card border-0 bg-white">
+                        <div class="card-body">
+                            <h4 class="mb-4">Especificaciones Técnicas</h4>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2"><i class="fas fa-tachometer-alt text-primary me-2"></i> Velocidad: 20-1500 rpm</li>
+                                        <li class="mb-2"><i class="fas fa-horse-head text-primary me-2"></i> Potencia: 0.18-75 kW</li>
+                                        <li class="mb-2"><i class="fas fa-arrows-alt-v text-primary me-2"></i> Longitud eje: hasta 6000mm</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2"><i class="fas fa-water text-primary me-2"></i> Viscosidad: 1-100.000 cP</li>
+                                        <li class="mb-2"><i class="fas fa-shield-alt text-primary me-2"></i> Certificación ATEX</li>
+                                        <li class="mb-2"><i class="fas fa-cog text-primary me-2"></i> Variador de frecuencia</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 fade-in">
+                    <div class="card border-0 bg-white">
+                        <div class="card-body">
+                            <h4 class="mb-4">Opciones Disponibles</h4>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2"><i class="fas fa-lock text-primary me-2"></i> Cierre mecánico</li>
+                                        <li class="mb-2"><i class="fas fa-compress-arrows-alt text-primary me-2"></i> Retén labial</li>
+                                        <li class="mb-2"><i class="fas fa-random text-primary me-2"></i> Sistemas anti-rotación</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2"><i class="fas fa-thermometer-half text-primary me-2"></i> Control de temperatura</li>
+                                        <li class="mb-2"><i class="fas fa-eye text-primary me-2"></i> Mirilla de inspección</li>
+                                        <li class="mb-2"><i class="fas fa-sensor text-primary me-2"></i> Sensores de nivel</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Intercambiadores Section -->
+    <section id="intercambiadores" class="section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center fade-in">
+                    <h2 class="section-title">Intercambiadores de Calor</h2>
+                    <p class="lead mb-5">Soluciones eficientes para la transferencia de calor en procesos industriales, adaptadas a sus necesidades específicas.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4 fade-in">
+                    <div class="card h-100 service-card">
+                        <img src="img/intercambiador-tubos.jpg" class="card-img-top" alt="Intercambiador de Tubos">
+                        <div class="card-body">
+                            <h3 class="card-title h5">Intercambiadores de Tubos</h3>
+                            <p class="card-text">Diseño clásico y versátil para una amplia gama de aplicaciones industriales.</p>
+                            <ul class="list-unstyled mt-3">
+                                <li><i class="fas fa-check text-primary me-2"></i> Alta eficiencia térmica</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> Diseño robusto</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> Fácil mantenimiento</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 fade-in">
+                    <div class="card h-100 service-card">
+                        <img src="img/intercambiador-placas.jpg" class="card-img-top" alt="Intercambiador de Placas">
+                        <div class="card-body">
+                            <h3 class="card-title h5">Intercambiadores de Placas</h3>
+                            <p class="card-text">Máxima eficiencia en espacios reducidos con excelente transferencia térmica.</p>
+                            <ul class="list-unstyled mt-3">
+                                <li><i class="fas fa-check text-primary me-2"></i> Compactos</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> Alta transferencia</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> Modular y ampliable</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 fade-in">
+                    <div class="card h-100 service-card">
+                        <img src="img/intercambiador-espiral.jpg" class="card-img-top" alt="Intercambiador en Espiral">
+                        <div class="card-body">
+                            <h3 class="card-title h5">Intercambiadores en Espiral</h3>
+                            <p class="card-text">Ideal para fluidos viscosos o con partículas en suspensión.</p>
+                            <ul class="list-unstyled mt-3">
+                                <li><i class="fas fa-check text-primary me-2"></i> Autolimpiantes</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> Bajo ensuciamiento</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> Alta turbulencia</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-6 fade-in">
+                    <div class="card border-0 bg-light">
+                        <div class="card-body">
+                            <h4 class="mb-4">Datos Técnicos</h4>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2"><i class="fas fa-temperature-high text-primary me-2"></i> Temperatura: -50°C a 400°C</li>
+                                        <li class="mb-2"><i class="fas fa-tachometer-alt text-primary me-2"></i> Presión: hasta 100 bar</li>
+                                        <li class="mb-2"><i class="fas fa-expand-arrows-alt text-primary me-2"></i> Superficie: 0.1-1000 m²</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2"><i class="fas fa-water text-primary me-2"></i> Viscosidad: 0.1-100.000 cP</li>
+                                        <li class="mb-2"><i class="fas fa-shield-alt text-primary me-2"></i> Norma TEMA</li>
+                                        <li class="mb-2"><i class="fas fa-certificate text-primary me-2"></i> Certificación PED</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 fade-in">
+                    <div class="card border-0 bg-light">
+                        <div class="card-body">
+                            <h4 class="mb-4">Sectores de Aplicación</h4>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2"><i class="fas fa-industry text-primary me-2"></i> Industria química</li>
+                                        <li class="mb-2"><i class="fas fa-flask text-primary me-2"></i> Industria farmacéutica</li>
+                                        <li class="mb-2"><i class="fas fa-utensils text-primary me-2"></i> Industria alimentaria</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2"><i class="fas fa-oil-can text-primary me-2"></i> Petroquímica</li>
+                                        <li class="mb-2"><i class="fas fa-sun text-primary me-2"></i> Energía</li>
+                                        <li class="mb-2"><i class="fas fa-recycle text-primary me-2"></i> Medio ambiente</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depósitos Section -->
+    <section id="depositos" class="section bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center fade-in">
+                    <h2 class="section-title">Depósitos</h2>
+                    <p class="lead mb-5">Fabricamos depósitos a medida para el almacenamiento y procesamiento de productos en diversos sectores industriales.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4 fade-in">
+                    <div class="card h-100 service-card">
+                        <img src="img/deposito-almacenamiento.jpg" class="card-img-top" alt="Depósito de Almacenamiento">
+                        <div class="card-body">
+                            <h3 class="card-title h5">Depósitos de Almacenamiento</h3>
+                            <p class="card-text">Soluciones de almacenamiento seguras y eficientes para todo tipo de productos.</p>
+                            <ul class="list-unstyled mt-3">
+                                <li><i class="fas fa-check text-primary me-2"></i> Gran capacidad</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> Diseño personalizado</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> Fácil limpieza</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 fade-in">
+                    <div class="card h-100 service-card">
+                        <img src="img/deposito-proceso.jpg" class="card-img-top" alt="Depósito de Proceso">
+                        <div class="card-body">
+                            <h3 class="card-title h5">Depósitos de Proceso</h3>
+                            <p class="card-text">Equipados con los elementos necesarios para el control y optimización de procesos.</p>
+                            <ul class="list-unstyled mt-3">
+                                <li><i class="fas fa-check text-primary me-2"></i> Control de temperatura</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> Sistemas de agitación</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> Instrumentación completa</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 fade-in">
+                    <div class="card h-100 service-card">
+                        <img src="img/deposito-aseptico.jpg" class="card-img-top" alt="Depósito Aséptico">
+                        <div class="card-body">
+                            <h3 class="card-title h5">Depósitos Asépticos</h3>
+                            <p class="card-text">Especialmente diseñados para industrias con altos requisitos de higiene.</p>
+                            <ul class="list-unstyled mt-3">
+                                <li><i class="fas fa-check text-primary me-2"></i> Acabado sanitario</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> Sistemas CIP/SIP</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> Certificación EHEDG</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-6 fade-in">
+                    <div class="card border-0 bg-white">
+                        <div class="card-body">
+                            <h4 class="mb-4">Características Técnicas</h4>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2"><i class="fas fa-cube text-primary me-2"></i> Volumen: 1-500.000L</li>
+                                        <li class="mb-2"><i class="fas fa-tachometer-alt text-primary me-2"></i> Presión: -1/+10 bar</li>
+                                        <li class="mb-2"><i class="fas fa-temperature-high text-primary me-2"></i> Temperatura: -50/+200°C</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2"><i class="fas fa-ruler text-primary me-2"></i> Acabados: Ra ≤ 0,4 µm</li>
+                                        <li class="mb-2"><i class="fas fa-shield-alt text-primary me-2"></i> Certificación PED</li>
+                                        <li class="mb-2"><i class="fas fa-microscope text-primary me-2"></i> Pruebas END</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 fade-in">
+                    <div class="card border-0 bg-white">
+                        <div class="card-body">
+                            <h4 class="mb-4">Equipamiento Opcional</h4>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2"><i class="fas fa-thermometer-half text-primary me-2"></i> Aislamiento térmico</li>
+                                        <li class="mb-2"><i class="fas fa-eye text-primary me-2"></i> Mirillas</li>
+                                        <li class="mb-2"><i class="fas fa-lightbulb text-primary me-2"></i> Iluminación</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2"><i class="fas fa-level-up-alt text-primary me-2"></i> Indicadores de nivel</li>
+                                        <li class="mb-2"><i class="fas fa-spray-can text-primary me-2"></i> Bolas de limpieza</li>
+                                        <li class="mb-2"><i class="fas fa-cogs text-primary me-2"></i> Válvulas automáticas</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section bg-primary text-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center fade-in">
+                    <h2 class="mb-4">¿Necesita una solución personalizada?</h2>
+                    <p class="lead mb-4">Nuestro equipo de expertos está listo para ayudarle a encontrar la solución perfecta para su proyecto.</p>
+                    <a href="contacto.html" class="btn btn-light btn-lg me-3"><i class="fas fa-envelope me-2"></i> Contactar ahora</a>
+                    <a href="tel:+34938499838" class="btn btn-outline-light btn-lg"><i class="fas fa-phone me-2"></i> Llamar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <div class="footer-logo">
+                        <img src="img/logo-equinox-white.png" alt="EQUINOX Logo" class="img-fluid">
+                    </div>
+                    <p>EQUINOX - Equipos Inoxidables S.L. es una empresa especializada en calderería industrial con más de 30 años de experiencia en el sector.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 mb-4 mb-md-0">
+                    <div class="footer-links">
+                        <h5>Empresa</h5>
+                        <ul>
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="empresa.html">Empresa</a></li>
+                            <li><a href="calidad.html">Calidad</a></li>
+                            <li><a href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 mb-4 mb-md-0">
+                    <div class="footer-links">
+                        <h5>Productos</h5>
+                        <ul>
+                            <li><a href="#reactores">Reactores</a></li>
+                            <li><a href="#agitadores">Agitadores</a></li>
+                            <li><a href="#intercambiadores">Intercambiadores</a></li>
+                            <li><a href="#depositos">Depósitos</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="footer-links">
+                        <h5>Contacto</h5>
+                        <p><i class="fas fa-map-marker-alt me-2"></i> Pol. Ind. Jordi Camp, c/ Jordi Camp, 51 - 08403 - Granollers, Barcelona.</p>
+                        <p><i class="fas fa-phone me-2"></i> +34 93 849 98 38</p>
+                        <p><i class="fas fa-fax me-2"></i> +34 93 849 58 09</p>
+                        <p><i class="fas fa-envelope me-2"></i> <a href="mailto:equinoxsl@equinoxsl.com">equinoxsl@equinoxsl.com</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-md-6 mb-3 mb-md-0">
+                        <p class="mb-0">&copy; 2025 EQUINOX - Equipos Inoxidables S.L. Todos los derechos reservados.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item"><a href="privacidad.html">Política de Privacidad</a></li>
+                            <li class="list-inline-item"><a href="cookies.html">Cookies</a></li>
+                            <li class="list-inline-item"><a href="aviso-legal.html">Aviso Legal</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | EQUINOX - Equipos Inoxidables S.L.</title>
+    <meta name="description" content="Contacte con EQUINOX, empresa especializada en calderería industrial. Solicite información, presupuestos o concierte una visita.">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Aviso de cookies -->
+    <div class="cookie-alert alert alert-dark alert-dismissible fade show" role="alert">
+        Esta web utiliza cookies para obtener datos estadísticos de la navegación de sus usuarios. Si continúas navegando consideramos que aceptas su uso.
+        <a href="#" class="alert-link">Más Información</a>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo-equinox.png" alt="EQUINOX Logo" class="img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMain">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="empresa.html">Empresa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productos-servicios.html">Productos y Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="materiales.html">Materiales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="acabados.html">Acabados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="calidad.html">Calidad</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sectores.html">Sectores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-globe"></i> ES
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+                            <li><a class="dropdown-item active" href="#" onclick="changeLanguage('es')">Castellano</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="changeLanguage('ca')">Català</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="bg-primary text-white py-5 mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h1 class="display-4 fw-bold">Contacto</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html" class="text-white">Inicio</a></li>
+                            <li class="breadcrumb-item active text-white" aria-current="page">Contacto</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="col-lg-4 d-none d-lg-block">
+                    <img src="img/contacto-header.png" alt="EQUINOX Contacto" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 mb-5 mb-lg-0 fade-in">
+                    <h2 class="section-title text-start">Información de Contacto</h2>
+                    <p class="lead mb-4">Estamos a su disposición para atender cualquier consulta o solicitud. No dude en contactarnos.</p>
+                    
+                    <div class="contact-info d-flex align-items-center">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h5 class="mb-1">Dirección</h5>
+                            <p class="mb-0">Pol. Ind. Jordi Camp, c/ Jordi Camp, 51<br>08403 - Granollers, Barcelona</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info d-flex align-items-center">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h5 class="mb-1">Teléfono</h5>
+                            <p class="mb-0">+34 93 849 98 38</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info d-flex align-items-center">
+                        <i class="fas fa-fax"></i>
+                        <div>
+                            <h5 class="mb-1">Fax</h5>
+                            <p class="mb-0">+34 93 849 58 09</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info d-flex align-items-center">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h5 class="mb-1">Email</h5>
+                            <p class="mb-0"><a href="mailto:equinoxsl@equinoxsl.com">equinoxsl@equinoxsl.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info d-flex align-items-center">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h5 class="mb-1">Horario</h5>
+                            <p class="mb-0">Lunes a Viernes: 8:00 - 18:00<br>Sábado y Domingo: Cerrado</p>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-4">
+                        <h5>Síguenos en redes sociales</h5>
+                        <div class="social-links mt-3">
+                            <a href="#" class="bg-primary"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="bg-primary"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="bg-primary"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-7 fade-in">
+                    <div class="card shadow-lg border-0">
+                        <div class="card-header bg-primary text-white py-3">
+                            <h3 class="h4 mb-0">Envíenos un mensaje</h3>
+                        </div>
+                        <div class="card-body p-4">
+                            <p class="text-muted mb-4">Complete el formulario y nos pondremos en contacto con usted lo antes posible.</p>
+                            
+                            <form class="contact-form">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label for="name" class="form-label">Nombre *</label>
+                                            <input type="text" class="form-control" id="name" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label for="company" class="form-label">Empresa</label>
+                                            <input type="text" class="form-control" id="company">
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label for="email" class="form-label">Email *</label>
+                                            <input type="email" class="form-control" id="email" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label for="phone" class="form-label">Teléfono *</label>
+                                            <input type="tel" class="form-control" id="phone" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="mb-3">
+                                    <label for="subject" class="form-label">Asunto *</label>
+                                    <input type="text" class="form-control" id="subject" required>
+                                </div>
+                                
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Mensaje *</label>
+                                    <textarea class="form-control" id="message" rows="5" required></textarea>
+                                </div>
+                                
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="privacy" required>
+                                    <label class="form-check-label" for="privacy">He leído y acepto la <a href="privacidad.html">política de privacidad</a> *</label>
+                                </div>
+                                
+                                <div class="text-end">
+                                    <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section bg-light-gray">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center fade-in mb-5">
+                    <h2 class="section-title">Nuestra Ubicación</h2>
+                    <p class="lead">Encuentre fácilmente nuestras instalaciones en Granollers, Barcelona.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 fade-in">
+                    <div class="map-container shadow-lg rounded-lg">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2984.9763772087!2d2.2870234!3d41.5886599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4c7c91c740f81%3A0x3b6bb0d5d5d5d5d5!2sJordi%20Camp%2C%2051%2C%2008403%20Granollers%2C%20Barcelona!5e0!3m2!1ses!2ses!4v1616508000000!5m2!1ses!2ses" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center fade-in mb-5">
+                    <h2 class="section-title">Preguntas Frecuentes</h2>
+                    <p class="lead">Respuestas a las consultas más habituales de nuestros clientes.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10 fade-in">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    ¿Qué tipo de proyectos pueden realizar?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    En EQUINOX realizamos todo tipo de proyectos de calderería industrial, desde pequeños componentes hasta grandes instalaciones completas. Nuestros servicios incluyen diseño, fabricación, instalación y mantenimiento de equipos para diversos sectores industriales como el farmacéutico, alimentario, químico, cosmético, entre otros.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    ¿Cómo puedo solicitar un presupuesto?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Puede solicitar un presupuesto de varias formas: completando el formulario de contacto en esta página, llamándonos al +34 93 849 98 38, o enviándonos un email a equinoxsl@equinoxsl.com. Le recomendamos incluir la mayor cantidad de detalles posible sobre su proyecto para que podamos ofrecerle un presupuesto más preciso.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    ¿Qué normativas y certificaciones cumplen sus equipos?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Todos nuestros equipos cumplen con las normativas y certificaciones requeridas según su aplicación. Fabricamos equipos bajo la Directiva de Equipos a Presión (DEP) en cualquier categoría, y aplicamos normas como ASME VIII Div.1, TEMA, AD-Merkblätter, EN-13445, entre otras. Además, contamos con certificaciones de calidad ISO y personal cualificado para realizar pruebas y certificaciones.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    ¿Realizan trabajos fuera de España?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Sí, realizamos proyectos tanto a nivel nacional como internacional. Contamos con experiencia en la exportación de equipos y en la realización de instalaciones en diversos países. Disponemos de los medios necesarios para gestionar el transporte y la logística internacional, así como para cumplir con las normativas específicas de cada país.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    ¿Ofrecen servicios de mantenimiento para equipos existentes?
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Sí, ofrecemos servicios de mantenimiento, reparación y actualización de equipos existentes, tanto para equipos fabricados por nosotros como para equipos de otros fabricantes. También realizamos pruebas periódicas, legalizaciones y certificaciones de equipos en servicio.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section bg-primary text-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center fade-in">
+                    <h2 class="mb-4">¿Listo para comenzar su proyecto?</h2>
+                    <p class="lead mb-4">Nuestro equipo está preparado para ayudarle a hacer realidad su proyecto de calderería industrial.</p>
+                    <a href="tel:+34938499838" class="btn btn-light btn-lg me-3"><i class="fas fa-phone me-2"></i> Llamar ahora</a>
+                    <a href="mailto:equinoxsl@equinoxsl.com" class="btn btn-outline-light btn-lg"><i class="fas fa-envelope me-2"></i> Enviar email</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <div class="footer-logo">
+                        <img src="img/logo-equinox-white.png" alt="EQUINOX Logo" class="img-fluid">
+                    </div>
+                    <p>EQUINOX - Equipos Inoxidables S.L. es una empresa especializada en calderería industrial con más de 30 años de experiencia en el sector.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 mb-4 mb-md-0">
+                    <div class="footer-links">
+                        <h5>Empresa</h5>
+                        <ul>
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="empresa.html">Empresa</a></li>
+                            <li><a href="calidad.html">Calidad</a></li>
+                            <li><a href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 mb-4 mb-md-0">
+                    <div class="footer-links">
+                        <h5>Productos</h5>
+                        <ul>
+                            <li><a href="productos-servicios.html#reactores">Reactores</a></li>
+                            <li><a href="productos-servicios.html#agitadores">Agitadores</a></li>
+                            <li><a href="productos-servicios.html#intercambiadores">Intercambiadores</a></li>
+                            <li><a href="productos-servicios.html#depositos">Depósitos</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="footer-links">
+                        <h5>Contacto</h5>
+                        <p><i class="fas fa-map-marker-alt me-2"></i> Pol. Ind. Jordi Camp, c/ Jordi Camp, 51 - 08403 - Granollers, Barcelona.</p>
+                        <p><i class="fas fa-phone me-2"></i> +34 93 849 98 38</p>
+                        <p><i class="fas fa-fax me-2"></i> +34 93 849 58 09</p>
+                        <p><i class="fas fa-envelope me-2"></i> <a href="mailto:equinoxsl@equinoxsl.com">equinoxsl@equinoxsl.com</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-md-6 mb-3 mb-md-0">
+                        <p class="mb-0">&copy; 2025 EQUINOX - Equipos Inoxidables S.L. Todos los derechos reservados.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item"><a href="privacidad.html">Política de Privacidad</a></li>
+                            <li class="list-inline-item"><a href="cookies.html">Cookies</a></li>
+                            <li class="list-inline-item"><a href="aviso-legal.html">Aviso Legal</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
